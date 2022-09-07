@@ -61,10 +61,7 @@
 
 - `.github/`: the folder where github actions and CML workflow is integrated.
 
-### .vscode:
-
-- `.vscode/`: the folder where local path fix are stored.
-### modles:
+### models:
 - `%.pkl`: the folder where model pickle files are stored.
 
 ### notebooks:
