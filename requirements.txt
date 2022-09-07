@@ -4,7 +4,8 @@ matplotlib
 docker
 dvc
 plotly
-pytestscikit-learn
+pytest
+scikit-learn
 scipy
 seaborn
 setuptools
