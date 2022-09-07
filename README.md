@@ -4,7 +4,7 @@
 <a href="https://github.com/isaaclucky/sales-prediction/pulls"><img src="https://img.shields.io/github/issues-pr/isaaclucky/sales-prediction" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/isaaclucky/sales-prediction/issues"><img src="https://img.shields.io/github/issues/isaaclucky/sales-prediction" alt="Issues Badge"/></a>
 <a href="https://github.com/isaaclucky/sales-prediction/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/isaaclucky/sales-prediction?color=2b9348"></a>
-<a href="https://github.com/isaaclucky/sales-prediction/blob/main/LICENSE"><img src="https://img.shields.io/github/license/isaaclucky/pharmaceutical-sales-prediction?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/isaaclucky/sales-prediction/blob/main/LICENSE"><img src="https://img.shields.io/github/license/isaaclucky/sales-prediction?color=2b9348" alt="License Badge"/></a>
 </div>
 
 
