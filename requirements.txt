@@ -4,11 +4,11 @@ matplotlib
 dvc[all]
 plotly
 pytest
+ipykernel
+pandas
 scikit-learn
 scipy
 seaborn
 sklearn
-io
-flask
 importlib-resources
 docker

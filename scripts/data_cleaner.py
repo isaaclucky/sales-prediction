@@ -161,8 +161,13 @@ class Clean_df:
         return self.df
 
     def remove_single_val_columns(self) -> pd.DataFrame:
-        vc = self.df.value_counts()
-        cols =
+        vc = self.df.nunique()
+        col =[]
+        for i in len(v):
+            if list(vc)[i] ==1:
+                col.append(v.index[i])
+        self.df.drop(columns=col,axis=1,inplace = True)
+        return self.df
 
     def change_columns_type_to(self, cols: list, data_type: str) -> pd.DataFrame:
         """
