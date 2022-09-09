@@ -19,7 +19,7 @@ sys.path.insert(0, path_parent+'/scripts')
 
 
 path="data/df_test.csv"
-repo='https://github.com/isaaclucky/sales-prediction'
+repo='../'
 version="V1.0"
 
 data_url = dvc.api.read(path=path,
@@ -40,7 +40,6 @@ def main():
     mlflow.log_param('data_version', version)
     mlflow.log_param('input_rows', data.shape[0])
     mlflow.log_param('input_colums', data.shape[1])
-    print(data.sample(1))
     
     # score = lr.score(X_test, y_test)
     
