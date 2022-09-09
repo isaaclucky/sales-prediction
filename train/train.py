@@ -18,31 +18,29 @@ os.chdir(path_parent)
 sys.path.insert(0, path_parent+'/scripts')
 
 
-path="data/df_train.csv"
-repo='https://github.com/isaaclucky/sales-prediction'
+path="data/df_test.csv"
+repo='https://github.com/isaaclucky/sales-prediction/tree'
 version="V1.0"
 
-data_url = dvc.api.read(
-    path=path,
-    repo=repo,
-    rev=version,
-)
+data_url = dvc.api.read(path=path,
+                    repo=repo,
+                    rev=version
+                    )
 
-mlflow.set_experiment('sales_prediction')
+mlflow.set_experiment('sales_prediction_2')
 
 
 
 def main():
     # prepare example dataset
     data = pd.read_csv(io.StringIO(data_url), sep=",")
-    print(data.columns)
     
     #log data params
     # mlflow.log_param('data_url', data_url)
     mlflow.log_param('data_version', version)
     mlflow.log_param('input_rows', data.shape[0])
     mlflow.log_param('input_colums', data.shape[1])
-    
+    print(data.sample(1))
     
     # score = lr.score(X_test, y_test)
     
