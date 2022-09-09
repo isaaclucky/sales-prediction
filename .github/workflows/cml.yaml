@@ -1,22 +1,21 @@
-name: sales-prediction
-on:
-  push:
-    branches:
-      - main
+name: CML
+on: [push]
 jobs:
   run:
     runs-on: ubuntu-latest
     # optionally use a convenient Ubuntu LTS + DVC + CML image
-    # container: docker://ghcr.io/iterative/cml:0-dvc2-base1
+    container: docker://ghcr.io/iterative/cml:0-dvc2-base1
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       # may need to setup NodeJS & Python3 on e.g. self-hosted
       # - uses: actions/setup-node@v2
       #   with:
       #     node-version: '16'
       # - uses: actions/setup-python@v2
       #   with:
-      #     python-version: '3.x'
+      #     pyhon-version: '3.7'
       - uses: iterative/setup-cml@v1
       - name: Train model
         run: |
@@ -28,5 +27,6 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Post reports as comments in GitHub PRs
+          cat metrics.txt >> report.md
           cat results.txt >> report.md
           cml send-comment report.md
