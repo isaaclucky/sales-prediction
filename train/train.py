@@ -19,7 +19,7 @@ sys.path.insert(0, path_parent+'/scripts')
 
 
 path="data/df_test.csv"
-repo='https://github.com/isaaclucky/sales-prediction/tree'
+repo='https://github.com/isaaclucky/sales-prediction'
 version="V1.0"
 
 data_url = dvc.api.read(path=path,
