@@ -13,11 +13,12 @@ import os, sys
 
 import io 
 
-path_parent = os.path.dirname(os.getcwd())
-os.chdir(path_parent)
-sys.path.insert(0, path_parent+'/scripts')
+# path_parent = os.path.dirname(os.getcwd())
+# os.chdir(path_parent)
+# sys.path.insert(0, path_parent+'/scripts')
+# sys.path.insert(0, path_parent+'/data')
 
-
+print(os.getcwd())
 path="data/sample_data.csv"
 
 
@@ -29,7 +30,7 @@ def main():
     
     #log data params
     # mlflow.log_param('data_url', data_url)
-    mlflow.log_param('data_version', version)
+    # mlflow.log_param('data_version', version)
     mlflow.log_param('input_rows', data.shape[0])
     mlflow.log_param('input_colums', data.shape[1])
     
