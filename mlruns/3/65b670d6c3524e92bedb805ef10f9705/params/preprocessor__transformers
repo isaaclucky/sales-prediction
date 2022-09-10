@@ -1,0 +1,5 @@
+[('continuous', Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('powertransformer', PowerTransformer(standardize=False)),
+                ('standardscaler', StandardScaler())]), ['DayOfWeek', 'Until_Holiday', 'Since_Holiday', 'CompetitionOpenMonthDuration', 'CompetitionDistance', 'PromoOpenMonthDuration']), ('discrete', Pipeline(steps=[('simpleimputer',
+                 SimpleImputer(fill_value=-1, strategy='constant')),
+                ('standardscaler',...

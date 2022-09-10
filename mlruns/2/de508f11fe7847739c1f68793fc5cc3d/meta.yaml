@@ -1,0 +1,15 @@
+artifact_uri: file:///home/owon/Documents/10x/Week3/sales-prediction/mlruns/2/de508f11fe7847739c1f68793fc5cc3d/artifacts
+end_time: 1662696528227
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: de508f11fe7847739c1f68793fc5cc3d
+run_uuid: de508f11fe7847739c1f68793fc5cc3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1662696528215
+status: 3
+tags: []
+user_id: owon

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/owon/Documents/10x/Week3/sales-prediction/notebooks/mlruns/1/3dcf1635b8294f60894c036dd52a23db/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 3dcf1635b8294f60894c036dd52a23db
+run_uuid: 3dcf1635b8294f60894c036dd52a23db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1662838527838
+status: 1
+tags: []
+user_id: owon

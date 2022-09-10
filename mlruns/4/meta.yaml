@@ -1,0 +1,4 @@
+artifact_location: file:///home/owon/Documents/10x/Week3/sales-prediction/notebooks/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: tuned_rf_regressor
