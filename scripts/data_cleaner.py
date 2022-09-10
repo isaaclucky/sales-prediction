@@ -255,7 +255,7 @@ class Clean_df:
         """
         performs a pipiline of cleaning methods in the given dataframe
         """
-        unwanted_cols = ['Id','Date','CompetitionOpenSinceYear','CompetitionOpenSinceMonth','Promo2SinceYear','Promo2SinceWeek']
+        unwanted_cols = ['Id','CompetitionOpenSinceYear','CompetitionOpenSinceMonth','Promo2SinceYear','Promo2SinceWeek']
         self.drop_null_entries();
         self.drop_duplicate();
         self.compute_holidays_gap('Date');
