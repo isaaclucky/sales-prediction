@@ -104,6 +104,4 @@ with col3:
 
 
 
-st.write("Outside the form")
-
 
