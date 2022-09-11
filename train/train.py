@@ -89,10 +89,10 @@ def main():
         # score = lr.score(X_test, y_test)
 
         # print("Score: %s" % score)
-        mlflow.log_metric("train_score", train_score)
-        mlflow.log_metric("test_score", test_score)
-        mlflow.sklearn.log_model(rf, "model")
-        print("Model saved in run %s" % mlflow.active_run().info.run_uuid)
+        # mlflow.log_metric("train_score", train_score)
+        # mlflow.log_metric("test_score", test_score)
+        # mlflow.sklearn.log_model(rf, "model")
+        # print("Model saved in run %s" % mlflow.active_run().info.run_uuid)
         
         
         date = datetime.now()
