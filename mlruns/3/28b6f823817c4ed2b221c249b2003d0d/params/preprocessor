@@ -1,8 +1,0 @@
-ColumnTransformer(transformers=[('continuous',
-                                 Pipeline(steps=[('simpleimputer',
-                                                  SimpleImputer(strategy='median')),
-                                                 ('powertransformer',
-                                                  PowerTransformer(standardize=False)),
-                                                 ('standardscaler',
-                                                  StandardScaler())]),
- ...

@@ -1,1 +1,0 @@
-[('simpleimputer', SimpleImputer(fill_value=-1, strategy='constant')), ('standardscaler', StandardScaler())]
