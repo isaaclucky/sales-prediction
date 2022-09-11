@@ -81,8 +81,6 @@ def main():
         rf.fit(X_train_trans, y_train)
         
         
-        # log the model
-        tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         train_score = rf.score(X_train_trans, y_train)
         valid_score = rf.score(X_val_trans, y_val)
