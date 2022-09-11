@@ -26,7 +26,6 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 # import mlflow.sklearn
 from pickle import load
 
-import seaborn as sns
 import io
 
 # path_parent = os.path.dirname(os.getcwd())
