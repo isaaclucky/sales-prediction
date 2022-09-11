@@ -52,8 +52,7 @@ def eval_metrics(actual, pred, verbose=True):
         print("\tRMSE Score is: {:.5%}".format(rmse))
         print("\tR2 Square Score is: {:.5%}".format(r2))
         print("\tMAE Score is: {:.5%}".format(mae))
-    return {f'RMSE Score': rmse, f'R2_Squared': r2, f'MAE Score': mae}
-
+    return rmse, r2, mae
 
 def main():
     # prepare example dataset
