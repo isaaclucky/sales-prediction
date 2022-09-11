@@ -9,7 +9,8 @@
 
 
 </br>
-![prediction-image](https://unsplash.com/photos/jrh5lAq-mIs)
+<img src="images/pharma.jpg" name="">
+
 
 ## Data Exploration Link
 - [Visualization link] (https://share.streamlit.io/]
