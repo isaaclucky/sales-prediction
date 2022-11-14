@@ -16,7 +16,7 @@
 - [Visualization link] (https://share.streamlit.io/]
 
 ## Articles
-- [Medium Article](https://medium.com/)
+- [Medium Article](https://medium.com/@Yishak_Tadele/sales-prediction-bc1d89eb6807)
 
 ## Table of Contents
 
